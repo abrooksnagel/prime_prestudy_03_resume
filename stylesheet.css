@@ -1,0 +1,56 @@
+
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding:0 0 1px 0;
+
+	border: 0;
+	margin: 0;
+}
+
+body {
+	display: none;
+	background-color: powderblue;
+	margin: 0px;
+	border-right: 150px solid lightgray;
+	border-left: 150px solid lightgray;
+	border-top: 10px solid lightgray;
+	border-bottom: 10px solid lightgray;
+	padding: 14px 14px 14px 14px;
+}
+
+header {
+	text-align: right;
+	padding-bottom: 2px;
+	border-bottom: 1px solid darkgrey;
+}
+
+header p {
+	font-size: 18px;
+}
+
+li {
+ 	margin-left: 15px;
+}
+
+.summary {
+ 	margin-bottom: 14px;
+}
+
+.experience {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.experience ul {
+	margin-bottom: 14px;
+}
+
+.rising p {
+	margin-bottom: 14px;
+}
+
+.fmi p {
+	margin-bottom: 14px;
+}
+
+
+
