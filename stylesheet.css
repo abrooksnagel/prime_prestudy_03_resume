@@ -7,33 +7,28 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 
 body {
 	display: none;
-	background-color: powderblue;
-	margin: 0px;   
+	background-color: #8b8b8b;
+ 
 }
-
-header, .summary, .experience, .education {
-	border-right: 150px solid #b2b2b2;
-	border-left: 150px solid #b2b2b2;
-	border-top: 10px solid #b2b2b2;
-	border-bottom: 10px solid #b2b2b2;
-	padding: 14px 14px 14px 14px;
-}
-
-header {
-	border-top: 20px solid #b2b2b2;
-}
-
-.education {
-	border-bottom: 20px solid #b2b2b2;
+header, .experience, .education, .summary {
+	max-width: 70%;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: #B4D602;
+	border: 5px solid #B4D602;
+	border-radius: 4px;
 }
 
 header {
+	font-size: 20px;
 	text-align: right;
+	font-style: italic;
 }
 
 header p {
 	font-size: 18px;
 }
+
 ul {
 	margin-left: 20px;
 }
@@ -44,6 +39,11 @@ ul {
 
 .experience ul:last-child {
 	padding-bottom: 0px;
+}
+
+h2 {
+	font-style: italic;
+	font-size: 28px;
 }
 
 
